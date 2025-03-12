@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Admin Dashboard</h1>
+    <div class="balance-section">
+      <h2>Total Balance: <span id="totalBalance">$0.00</span></h2>
+    </div>
+    <div class="transactions-section">
+      <h2>Manage Transactions</h2>
+      <form id="addTransactionForm">
+        <input type="text" id="transactionName" placeholder="Transaction Name" required>
+        <input type="number" id="transactionAmount" placeholder="Amount" required>
+        <button type="submit">Add Transaction</button>
+      </form>
+      <table id="transactionsTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Transactions will be dynamically added here -->
+        </tbody>
+      </table>
+      <button id="exportPDF">Export to PDF</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
