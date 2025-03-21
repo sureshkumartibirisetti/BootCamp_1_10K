@@ -49,8 +49,8 @@ This project is a web application implementing a **Role-Based Login System** tha
 3. User Dashboard
 ![User Dashboard](https://github.com/user-attachments/assets/1f3886b5-81ab-4440-8a70-a2e4056f2529)
 
-🚀 **Live Demo**: [Check it out here](https://sureshkumartibirisetti.github.io/Demo/)
+🚀 **Live Demo**: [Check it out here](https://sureshkumartibirisetti.github.io/BootCamp_1_10K/)
 
-🔗 **GitHub Repository**: [View the code here](https://github.com/sureshkumartibirisetti/Demo)
+🔗 **GitHub Repository**: [View the code here](https://github.com/sureshkumartibirisetti/BootCamp_1_10K)
 
 ---
